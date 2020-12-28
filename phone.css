@@ -1,0 +1,13 @@
+#hi-low,
+#min {
+    display: none;
+}
+
+.detail-section {
+    margin-left: -10px;
+}
+
+.detail.bordered {
+    border-left: 1px solid #777;
+    border-right: none;
+}
