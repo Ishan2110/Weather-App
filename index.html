@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link href="styles.css" rel="stylesheet">
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC8P79bFuPom56IVZ1pM9MfTFq_wbBbAo&libraries=places&callback=initMap">
-    </script>
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="phone.css">
     <title>Weather App</title>
 </head>
 
@@ -34,7 +33,7 @@
                     <div class="value" id="temp">TBD</div>
                 </div>
                 <div class="detail">
-                    <div class="title">Temp Min/Max</div>
+                    <div class="title" id="min">Temp Min/Max</div>
                     <div class="value" id="hi-low">TBD</div>
                 </div>
             </div>
